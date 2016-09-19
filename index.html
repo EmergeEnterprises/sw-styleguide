@@ -75,6 +75,7 @@
           <ul class="dropdown-menu">
             <li><a href="#colors">Colors</a></li>
             <li><a href="#typography">Typography</a></li>
+            <li><a href="#content">Content</a></li>
             <li><a href="#icons">Icons</a></li>
             <li><a href="#forms">Forms</a></li>
             <li><a href="#tables">Tables</a></li>
@@ -135,61 +136,89 @@
               <div class="color-block color-error">Error #d02612</div>
             </div>
         </div>
-        <div class="col-md-12" id="typography">
-          <h2>Typography</h2>
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td>
-                    <h1>h1. heading (Small to Medium devices)</h1>
-                  </td>
-                  <td class="type-info">Semibold Size 26px/Line height 39px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <h1>h1. heading (Large to Extra-Large devices)</h1>
-                  </td>
-                  <td class="type-info">Semibold Size 30px/Line height 45px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <h2>h2. heading (Sm to Md)</h2>
-                  </td>
-                  <td class="type-info">Semibold Size 18px/Line height 27px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <h2>h2. heading (L to ExLg)</h2>
-                  </td>
-                  <td class="type-info">Semibold Size 21px/Line height 33px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <h3>h3. heading (Sm to Md)</h3>
-                  </td>
-                  <td class="type-info">Book Size 16px/Line Height 24px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <h3>h3. heading (L to ExLg)</h3>
-                  </td>
-                  <td class="type-info">Book Size 16px/Line Height 24px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p class="p-small">Body font looks like this (Sm to Md)</p>
-                  </td>
-                  <td class="type-info">Book Size 12px/Line Height 18px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p class="p-large">Body font looks like this (Lg to ExLg)</p>
-                  </td>
-                  <td class="type-info">Book Size 14px/Line Height 21px</td>
-                </tr>
-              </tbody>
-            </table>
+
+        <div class="row">
+          <div class="col-md-12" id="typography">
+            <h2>Typography</h2>
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <h1>h1. heading (Small to Medium devices)</h1>
+                    </td>
+                    <td class="type-info">Semibold Size 26px/Line height 39px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h1 class="h1-large">h1. heading (Large to Extra-Large devices)</h1>
+                    </td>
+                    <td class="type-info">Semibold Size 30px/Line height 45px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2>h2. heading (Sm to Md)</h2>
+                    </td>
+                    <td class="type-info">Semibold Size 18px/Line height 27px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h2 class="h2-large">h2. heading (L to ExLg)</h2>
+                    </td>
+                    <td class="type-info">Semibold Size 21px/Line height 33px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h3>h3. heading (Sm to Md)</h3>
+                    </td>
+                    <td class="type-info">Book Size 16px/Line Height 24px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <h3 class="h3-large">h3. heading (L to ExLg)</h3>
+                    </td>
+                    <td class="type-info">Book Size 16px/Line Height 24px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p>Body font looks like this (Sm to Md)</p>
+                    </td>
+                    <td class="type-info">Book Size 12px/Line Height 18px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="p-large">Body font looks like this (Lg to ExLg)</p>
+                    </td>
+                    <td class="type-info">Book Size 14px/Line Height 21px</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="p-large">A link looks <a href="#">like this</a></p>
+                    </td>
+                    <td class="type-info">Book Size 14px/Line Height 21px</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" id="content">
+            <h2>Content</h2>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                Page titles, navigation items, table labels and buttons should appear <strong>title case</strong>:
+                "Your Store" or "Save Changes"
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                Text input fields should appear <strong>sentence case</strong>:
+                "Email address" or "Confirm new password"
+              </div>
+            </div>
           </div>
+        </div>
+
         <div class="row">
           <div class="col-md-12" id="icons">
             <h2>Icons</h2>
@@ -198,40 +227,53 @@
                   <div class="icon-block">
                       <img src="images/icons/icon_cancel.svg" alt="icon_cancel">
                       <p>icon_cancel</p>
+                      <p><em>Created for SW</em></p>
+                  </div>
+                  <div class="icon-block">
+                      <img src="images/icons/icon_cart.svg" alt="icon_cart">
+                      <p>icon_cart</p>
+                      <p><a href="https://thenounproject.com/icon/306/" target="_blank"><em>Noun Project #306</em></a></p>
                   </div>
                   <div class="icon-block">
                       <img src="images/icons/icon_check.svg" alt="icon_check">
                       <p>icon_check</p>
+                      <p><em>Created for SW</em></p>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="icon-block">
                       <img src="images/icons/icon_edit.svg" alt="icon_edit">
                       <p>icon_edit</p>
+                      <p><a href="https://thenounproject.com/icon/614231/" target="_blank"><em>Noun Project #614231</em></a></p>
                   </div>
                   <div class="icon-block">
                       <img src="images/icons/icon_PDF.svg" alt="icon_PDF">
                       <p>icon_PDF</p>
+                      <p><a href="https://thenounproject.com/icon/504768/" target="_blank"><em>Noun Project #504768</em></a></p>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="icon-block">
                       <img src="images/icons/icon_print.svg" alt="icon_print">
                       <p>icon_print</p>
+                      <p><a href="https://thenounproject.com/icon/545936/" target="_blank"><em>Noun Project #545936</em></a></p>
                   </div>
                   <div class="icon-block">
                       <img src="images/icons/icon_search.svg" alt="icon_search">
                       <p>icon_search</p>
+                      <p><em>Created for SW</em></p>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="icon-block">
                       <img src="images/icons/icon_sorting.svg" alt="icon_sorting">
                       <p>icon_sorting</p>
+                      <p><em>Created for SW</em></p>
                   </div>
                   <div class="icon-block">
                       <img src="images/icons/icon_warning.svg" alt="icon_warning">
                       <p>icon_warning</p>
+                      <p><em>Created for SW</em></p>
                   </div>
                 </div>
               </div>

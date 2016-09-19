@@ -34,6 +34,41 @@
   --error: #d02612;
 }
 
+a {
+  text-decoration: none;
+  color: var(--text-primary) !important;
+  border-bottom: 3px solid var(--brand-primary);
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: var(--brand-primary);
+  padding-top: 3px;
+  transition: background 0.3s ease;
+}
+
+nav a,
+nav a:hover {
+  border-bottom: none;
+}
+
+nav a:active {
+  border-bottom: 3px solid var(--brand-primary);
+}
+
+strong {
+  font-family: "Gotham Round SemiBold";
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: #2a2730;
+  padding: 50px 15px;
+  margin: 0px;
+}
+
+/*Typography*/
 body {
   font-family: "Gotham Round Book", Helvetica, Arial, sans-serif;
 }
@@ -45,6 +80,11 @@ h1,
   line-height: 39px;
 }
 
+.h1-large {
+  font-size: 30px;
+  line-height: 45px;
+}
+
 h2,
 .jumbotron h2 {
   font-family: "Gotham Round SemiBold";
@@ -52,9 +92,19 @@ h2,
   line-height: 27px;
 }
 
+.h2-large {
+  font-size: 21px;
+  line-height: 33px;
+}
+
 h3,
 .jumbotron h3 {
   font-family: "Gotham Round Book";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.h3-large {
   font-size: 16px;
   line-height: 24px;
 }
@@ -66,16 +116,9 @@ p,
   line-height: 18px;
 }
 
-a {
-  color: var(--text-primary) !important;
-}
-
-footer {
-  display: block;
-  text-align: center;
-  background-color: #2a2730;
-  padding: 50px 15px;
-  margin: 0px;
+.p-large {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 /*Colors*/
