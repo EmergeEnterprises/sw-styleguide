@@ -34,14 +34,20 @@
   --error: #d02612;
 }
 
-a {
+a,
+a:focus,
+a:active,
+a:visited,
+a:hover {
   text-decoration: none;
+}
+
+a {
   color: var(--text-primary) !important;
   border-bottom: 3px solid var(--brand-primary);
 }
 
 a:hover {
-  text-decoration: none;
   background-color: var(--brand-primary);
   padding-top: 3px;
   transition: background 0.3s ease;
@@ -68,6 +74,52 @@ footer {
   margin: 0px;
 }
 
+/*Colors*/
+.color-brand-light {
+  background-color: var(--brand-light);
+}
+.color-brand-primary {
+  background-color: var(--brand-primary);
+}
+.color-brand-dark {
+  background-color: var(--brand-dark);
+}
+.color-background-light {
+  background-color: var(--background-light);
+}
+.color-background-medium {
+  background-color: var(--background-medium);
+}
+.color-background-dark {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}
+.color-text-primary {
+  color: var(--text-primary);
+}
+.color-text-medium {
+  background-color:
+  color: var(--text-medium);
+}
+.color-text-light {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+}
+.color-gray-light {
+  background-color: var(--gray-light);
+}
+.color-gray-medium {
+  background-color: var(--gray-medium);
+}
+.color-gray-dark {
+  background-color: var(--gray-dark);
+}
+.color-success {
+  background-color: var(--success);
+}
+.color-error {
+  background-color: var(--error);
+}
 /*Typography*/
 body {
   font-family: "Gotham Round Book", Helvetica, Arial, sans-serif;
@@ -121,52 +173,6 @@ p,
   line-height: 21px;
 }
 
-/*Colors*/
-.color-brand-light {
-  background-color: var(--brand-light);
-}
-.color-brand-primary {
-  background-color: var(--brand-primary);
-}
-.color-brand-dark {
-  background-color: var(--brand-dark);
-}
-.color-background-light {
-  background-color: var(--background-light);
-}
-.color-background-medium {
-  background-color: var(--background-medium);
-}
-.color-background-dark {
-  background-color: var(--background-dark);
-  color: var(--text-light);
-}
-.color-text-primary {
-  color: var(--text-primary);
-}
-.color-text-medium {
-  background-color:
-  color: var(--text-medium);
-}
-.color-text-light {
-  background-color: var(--background-dark);
-  color: var(--text-light);
-}
-.color-gray-light {
-  background-color: var(--gray-light);
-}
-.color-gray-medium {
-  background-color: var(--gray-medium);
-}
-.color-gray-dark {
-  background-color: var(--gray-dark);
-}
-.color-success {
-  background-color: var(--success);
-}
-.color-error {
-  background-color: var(--error);
-}
 
 /*Forms and Buttons*/
 .form-group label {
@@ -235,7 +241,6 @@ p,
 }
 
 
-
 /*Styleguide Specific Styles*/
 .navbar-brand {
   margin-left: 15px !important;
@@ -260,6 +265,17 @@ p,
   border: 1px solid var(--gray-medium);
   margin: 5px;
   padding: 20px;
+}
+
+.logo-block {
+  padding: 20px;
+  margin: 0;
+  display: block;
+}
+
+.logo-block h3 {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .jumbotron {
