@@ -268,6 +268,10 @@ td {
   line-height: 24px;
 }
 
+td:first-child {
+  font-family: "Gotham Round SemiBold";
+}
+
 /*Styleguide Specific Styles*/
 .navbar-brand {
   margin-left: 15px !important;
